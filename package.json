@@ -1,0 +1,32 @@
+{
+  "name": "salvemais-site",
+  "version": "1.0.0",
+  "description": "O site do salvemais",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalveMais/site.git"
+  },
+  "keywords": [
+    "gulp",
+    "handlebars",
+    "sass"
+  ],
+  "author": "Guilherme Diego <guidiego.expgames@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SalveMais/site/issues"
+  },
+  "homepage": "https://github.com/SalveMais/site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
